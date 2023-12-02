@@ -1,7 +1,14 @@
 h1 {
   color: white;
   background-color: darkblue;
+  border-radius: 0 20px 20px 0;
   padding: 20px;
+  transition: all 0.8s;
+}
+
+h1:hover {
+  color: darkblue;
+  background-color: white;
 }
 
 body {
